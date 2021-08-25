@@ -24,7 +24,7 @@ const tagData = [
     },
     {
         tag_name: 'off white',
-    },
+    }
 ];
 
 const seedTags = () => Tag.bulkCreate(tagData);
